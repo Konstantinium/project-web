@@ -1,0 +1,226 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  float: right;
+  width: 33.4%;
+  max-width: 391px;
+  padding-left: 20px; }
+  @media (max-width: 767px) {
+    #htmlcontent_top {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      padding-top: 0; } }
+  @media (max-width: 767px) {
+    #htmlcontent_top ul {
+      margin: 0 -5px;
+      text-align: center; } }
+  #htmlcontent_top ul li {
+    width: 100%;
+    margin-bottom: 20px; }
+    #htmlcontent_top ul li a {
+      display: block;
+      position: relative;
+      background: none; }
+      #htmlcontent_top ul li a .item-html {
+        width: 100%;
+        position: absolute;
+        padding: 25px 5px 5px;
+        top: 0;
+        text-align: center;
+        left: 0; }
+        #htmlcontent_top ul li a .item-html h2 {
+          color: #fff;
+          margin-bottom: 60px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 60px;
+          font-weight: 300;
+          text-transform: uppercase;
+          line-height: 70px; }
+        #htmlcontent_top ul li a .item-html span {
+          padding-top: 15px;
+          color: #fff;
+          font-size: 46px;
+          display: inline-block;
+          width: 81px;
+          background: #ff530d;
+          font-family: "FontAwesome";
+          height: 81px;
+          font-weight: 400; }
+      @media (max-width: 1199px) {
+        #htmlcontent_top ul li a .item-html h2 {
+          font-size: 50px;
+          line-height: 50px;
+          margin-bottom: 30px; } }
+      @media (max-width: 991px) {
+        #htmlcontent_top ul li a .item-html h2 {
+          font-size: 35px;
+          line-height: 35px;
+          margin-bottom: 20px; }
+        #htmlcontent_top ul li a .item-html span {
+          font-size: 36px;
+          width: 65px;
+          height: 65px; } }
+      @media (max-width: 767px) {
+        #htmlcontent_top ul li a .item-html h2 {
+          font-size: 55px;
+          line-height: 55px;
+          margin-bottom: 40px; } }
+      @media (max-width: 479px) {
+        #htmlcontent_top ul li a .item-html h2 {
+          font-size: 32px;
+          line-height: 27px;
+          margin-bottom: 20px; } }
+      #htmlcontent_top ul li a:hover .item-html h2 {
+        color: #ff530d;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      #htmlcontent_top ul li a:hover .item-html span {
+        background: #fff;
+        color: #ff530d;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+    @media (max-width: 767px) {
+      #htmlcontent_top ul li {
+        float: none;
+        padding-left: 5px;
+        display: inline-block;
+        width: 50%;
+        padding-right: 5px; }
+        #htmlcontent_top ul li a {
+          background: none; } }
+    #htmlcontent_top ul li img {
+      max-width: 100%;
+      height: auto; }
+
+#htmlcontent_home {
+  clear: left; }
+  #htmlcontent_home .htmlcontent-home li {
+    float: left;
+    margin-bottom: 30px; }
+    #htmlcontent_home .htmlcontent-home li a {
+      display: block;
+      overflow: hidden;
+      background: #ff530d;
+      position: relative;
+      text-align: center; }
+      #htmlcontent_home .htmlcontent-home li a img {
+        height: auto;
+        width: 100%;
+        -webkit-transition: all 0.4s linear;
+        -moz-transition: all 0.4s linear;
+        -o-transition: all 0.4s linear;
+        -ms-transition: all 0.4s linear;
+        transition: all 0.4s linear; }
+      #htmlcontent_home .htmlcontent-home li a .item-html {
+        padding: 60px 5px 5px;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        width: 100%;
+        left: 0; }
+        #htmlcontent_home .htmlcontent-home li a .item-html h2 {
+          color: #fff;
+          line-height: 30px;
+          text-transform: uppercase;
+          font-weight: 600;
+          padding: 0;
+          margin: 0 0 10px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 40px; }
+        #htmlcontent_home .htmlcontent-home li a .item-html h3 {
+          color: #fff;
+          padding: 0;
+          line-height: 25px;
+          text-transform: uppercase;
+          margin: 0;
+          font-weight: 300;
+          font-family: "Open Sans", sans-serif;
+          font-size: 25px; }
+        #htmlcontent_home .htmlcontent-home li a .item-html span {
+          height: 58px;
+          display: inline-block;
+          padding-top: 14px;
+          color: #fff;
+          font-size: 28px;
+          right: 0;
+          position: absolute;
+          bottom: 0;
+          width: 58px;
+          background: #344046;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+      @media (max-width: 1199px) {
+        #htmlcontent_home .htmlcontent-home li a .item-html {
+          padding-top: 40px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h2 {
+            font-size: 35px;
+            line-height: 30px;
+            margin-bottom: 5px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h3 {
+            font-size: 23px; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        #htmlcontent_home .htmlcontent-home li a .item-html {
+          padding-top: 25px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h2 {
+            font-size: 25px;
+            line-height: 25px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h3 {
+            font-size: 18px;
+            line-height: 20px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html span {
+            display: none; } }
+      #htmlcontent_home .htmlcontent-home li a:hover {
+        background: #344046; }
+        #htmlcontent_home .htmlcontent-home li a:hover span {
+          background: #ff530d; }
+        @media (min-width: 992px) {
+          #htmlcontent_home .htmlcontent-home li a:hover span {
+            font-size: 32px; }
+          #htmlcontent_home .htmlcontent-home li a:hover img {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1); } }
+    @media (max-width: 767px) {
+      #htmlcontent_home .htmlcontent-home li {
+        width: 50%; } }
+    @media (max-width: 479px) {
+      #htmlcontent_home .htmlcontent-home li {
+        width: 100%; }
+        #htmlcontent_home .htmlcontent-home li a .item-html {
+          padding-top: 40px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h2 {
+            font-size: 50px;
+            line-height: 50px;
+            margin-bottom: 10px; }
+          #htmlcontent_home .htmlcontent-home li a .item-html h3 {
+            font-size: 30px; } }
+  #htmlcontent_home .htmlcontent-home li:last-child {
+    width: 100%; }
+    #htmlcontent_home .htmlcontent-home li:last-child a {
+      background: #344046;
+      text-align: left; }
+      #htmlcontent_home .htmlcontent-home li:last-child a .item-html {
+        padding: 30px 5px 5px 52px; }
+      #htmlcontent_home .htmlcontent-home li:last-child a h5 {
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #9aa0a3;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 65px 0 0; }
+        @media (max-width: 767px) {
+          #htmlcontent_home .htmlcontent-home li:last-child a h5 {
+            display: none; } }
+      #htmlcontent_home .htmlcontent-home li:last-child a:hover {
+        background: #ff530d; }
+        #htmlcontent_home .htmlcontent-home li:last-child a:hover h5 {
+          color: #fff; }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

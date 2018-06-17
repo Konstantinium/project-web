@@ -1,0 +1,55 @@
+@import "../../_theme_variables";
+
+.header_user_info {
+  float: right;
+  a {
+    min-width: 46px;
+    color: $light-text-color;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 5px 2px 5px;
+    min-height: 48px;
+    cursor: pointer;
+    background: #556871;
+    display: block;
+    .icon-lock:before {
+      font-weight: normal;
+      content: "\f023";
+      font-family: $font-icon;
+    }
+    .icon-unlock:before {
+      content: "\f09c";
+      font-family: $font-icon;
+      font-weight: normal;
+    }
+    @media (max-width: $screen-xs - 1) {
+      font-size: 22px;
+    }
+    &:hover, &.active {
+      background: #ff530d;
+    }
+  }
+  &+ .header_user_info {
+    border-right: none;  
+  }
+  @media (max-width: $screen-xs - 1) { // max 479px
+    a {
+      display: inline-block;
+    }
+  }
+}
+
+.user_info {
+  float: right;
+  margin: 20px 0 0 0;
+  li {
+    display: inline-block;
+    padding-right: 15px;
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;  
+      }
+    }
+  }
+}

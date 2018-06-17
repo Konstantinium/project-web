@@ -1,0 +1,41 @@
+.header_user_info {
+  float: right; }
+  .header_user_info a {
+    min-width: 46px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 5px 2px 5px;
+    min-height: 48px;
+    cursor: pointer;
+    background: #556871;
+    display: block; }
+    .header_user_info a .icon-lock:before {
+      font-weight: normal;
+      content: "\f023";
+      font-family: "FontAwesome"; }
+    .header_user_info a .icon-unlock:before {
+      content: "\f09c";
+      font-family: "FontAwesome";
+      font-weight: normal; }
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 22px; } }
+    .header_user_info a:hover, .header_user_info a.active {
+      background: #ff530d; }
+  .header_user_info + .header_user_info {
+    border-right: none; }
+  @media (max-width: 479px) {
+    .header_user_info a {
+      display: inline-block; } }
+
+.user_info {
+  float: right;
+  margin: 20px 0 0 0; }
+  .user_info li {
+    display: inline-block;
+    padding-right: 15px; }
+    .user_info li a {
+      text-decoration: none; }
+      .user_info li a:hover {
+        text-decoration: underline; }

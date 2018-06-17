@@ -1,0 +1,300 @@
+@import "../../../_theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {
+	float: right;
+	width: 33.4%;
+	max-width: 391px;
+	padding-left: 20px;
+	@media (max-width: $screen-xs-max) { // max 767px
+		width: 100%;
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 0;
+	}
+	ul {
+		@media (max-width: $screen-xs-max) { // max 767px
+			margin: 0 -5px;
+			text-align: center;
+		}
+		li {
+			width: 100%;
+			margin-bottom: 20px;
+			a {
+				display: block;
+				position: relative;
+				background: none;
+				.item-html {
+					width: 100%;
+					position: absolute;
+					padding: 25px 5px 5px;
+					top: 0;
+					text-align: center;
+					left: 0;
+					h2 {
+						color: #fff;
+						margin-bottom: 60px;
+						font-family: $font-custom;
+						font-size: 60px;
+						font-weight: 300;
+						text-transform: uppercase;
+						line-height: 70px;
+					}
+					span {
+						padding-top: 15px;
+						color: #fff;
+						font-size: 46px;
+						display: inline-block;
+						width: 81px;
+						background: #ff530d;
+						font-family: $font-icon;
+						height: 81px;
+						font-weight: 400;
+					}
+				}
+				@media (max-width:$screen-md-max) { // max 1200px
+					.item-html {
+						h2 {
+							font-size: 50px;
+							line-height: 50px;
+							margin-bottom: 30px;
+						}
+					}
+				}
+				@media (max-width: $screen-sm-max) { // max 991px
+					.item-html {
+						h2 {
+							font-size: 35px;
+							line-height: 35px;
+							margin-bottom: 20px;
+						}
+						span {
+							font-size: 36px;
+							width: 65px;
+							height: 65px;
+						}
+					}
+				}
+				@media (max-width: $screen-xs-max) { // max 767px
+					.item-html {
+						h2 {
+							font-size: 55px;
+							line-height: 55px;
+							margin-bottom: 40px;
+						}
+					}
+				}
+				@media (max-width: $screen-xs - 1) { // max 479px
+					.item-html {
+						h2 {
+							font-size: 32px;
+							line-height: 27px;
+							margin-bottom: 20px;
+						}
+					}
+				}
+				&:hover {
+					.item-html {
+						h2 {
+							color: #ff530d;
+							-webkit-transition: all 0.3s ease;
+							-moz-transition: all 0.3s ease;
+							transition: all 0.3s ease;
+						}
+						span {
+							background: #fff;
+							color: #ff530d;
+							-webkit-transition: all 0.3s ease;
+							-moz-transition: all 0.3s ease;
+							transition: all 0.3s ease;
+						}
+					}
+				}
+			}
+			@media (max-width: $screen-xs-max) { // max 767px
+				float: none;
+				padding-left: 5px;
+				display: inline-block;
+				width: 50%;
+				padding-right: 5px;
+				a {
+					background: none;
+				}
+			}
+			img {
+				max-width: 100%;
+				height: auto;	
+			}
+		}
+	}
+}
+
+#htmlcontent_home {
+	clear: left;
+	.htmlcontent-home {
+		li {
+			float: left;
+			margin-bottom: 30px;
+			a {
+				display: block;
+				overflow: hidden;
+				background: #ff530d;
+				position: relative;
+				text-align: center;
+				img {
+					height: auto;
+					width: 100%;
+					-webkit-transition:all 0.4s linear; 
+					-moz-transition:all 0.4s linear; 
+					-o-transition:all 0.4s linear; 
+					-ms-transition:all 0.4s linear; 
+					transition:all 0.4s linear;
+				}
+				.item-html {
+					padding: 60px 5px 5px;
+					position: absolute;
+					height: 100%;
+					top: 0;
+					width: 100%;
+					left: 0;
+					h2 {
+						color: #fff;
+						line-height: 30px;
+						text-transform: uppercase;
+						font-weight: 600;
+						padding: 0;
+						margin: 0 0 10px;
+						font-family: $font-custom;
+						font-size: 40px;
+					}
+					h3 {
+						color: #fff;
+						padding: 0;
+						line-height: 25px;
+						text-transform: uppercase;
+						margin: 0;
+						font-weight: 300;
+						font-family: $font-custom;
+						font-size: 25px;
+					}
+					span {
+						height: 58px;
+						display: inline-block;
+						padding-top: 14px;
+						color: #fff;
+						font-size: 28px;
+						right: 0;
+						position: absolute;
+						bottom: 0;
+						width: 58px;
+						background: #344046;
+						-webkit-transition: all 0.3s ease;
+						-moz-transition: all 0.3s ease;
+						transition: all 0.3s ease;
+					}
+				}
+				@media (max-width:$screen-md-max) { // max 1200px
+					.item-html {
+						padding-top: 40px;
+						h2 {
+							font-size: 35px;
+							line-height: 30px;
+							margin-bottom: 5px;
+						}
+						h3 {
+							font-size: 23px;
+						}
+					}
+				}
+				@media (min-width: $screen-sm) and (max-width: $screen-sm-max) { // min 768px max 991px	
+					.item-html {
+						padding-top: 25px;
+						h2 {
+							font-size: 25px;
+							line-height: 25px;
+						}
+						h3 {
+							font-size: 18px;
+							line-height: 20px;
+						}
+						span {display: none;}
+					}
+				}
+				&:hover {
+					background: #344046;
+					span {
+						background: #ff530d;
+					}
+					@media (min-width: $screen-md) { // min 992px 
+						span {
+							font-size: 32px;
+						}
+						img {
+							-moz-transform: scale(1.1); 
+							-webkit-transform: scale(1.1); 
+							-o-transform: scale(1.1); 
+							transform: scale(1.1);
+						}
+					}
+				}
+			}
+			@media (max-width: $screen-xs-max) { // max 767px
+				width: 50%;
+			}
+			@media (max-width: $screen-xs - 1) { // max 479px
+				width: 100%;
+				a .item-html {
+					padding-top: 40px;
+					h2 {
+						font-size: 50px;
+						line-height: 50px;
+						margin-bottom: 10px;
+					}
+					h3 {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+		li:last-child {
+			width: 100%;
+			a {
+				background: #344046;
+				text-align: left;
+				.item-html {
+					padding: 30px 5px 5px 52px;
+				}
+				h5 {
+					line-height: 20px;
+					text-transform: uppercase;
+					color: #9aa0a3;
+					font-family: $font-custom;
+					font-size: 20px;
+					font-weight: 400;
+					margin: 65px 0 0;
+					@media (max-width: $screen-xs-max) { // max 767px
+						display: none;
+					}
+				}
+				&:hover {
+					background: #ff530d;
+					h5 {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+}

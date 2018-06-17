@@ -1,0 +1,8 @@
+@import "../../_theme_variables";
+
+#currencies-block-top {
+	@include header-dropdown;
+	div.current span {
+		display: none;
+	}
+}

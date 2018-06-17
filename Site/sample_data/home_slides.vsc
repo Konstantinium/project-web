@@ -1,0 +1,7 @@
+"Slide ID";Active;Position;Description;Title;Legend;Url;Image
+1;1;0;"<h2>Ipsum commete</h2>
+<h3>Dolor diam purus</h3>";"Sample 1";sample-1;index.php?id_category=5&controller=category;ed6e676a1160291fcf317480ef80271be2a14848_slide-1.png
+2;1;0;"<h2>Donec vitae diam</h2>
+<h3>Dolor diam purus</h3>";"Sample 2";sample-2;index.php?id_category=4&controller=category;cad6c68bc3a9e0a9722e369b857f8285f7bbf041_slide-2.png
+3;1;0;"<h2>Nullectus non eros</h2>
+<h3>Dolor diam purus</h3>";"Sample 3";sample-3;index.php?id_category=3&controller=category;fc788bfbf5d0a1e3df305fc9a1e75b1770200b1b_slide-3.png
